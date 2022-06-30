@@ -1,8 +1,8 @@
 import React from 'react'
-
+import './style.css'
 function Cards(props) {
     return (
-        <div className='Cards'>
+        <div className='cards'>
             <div className='div-img'>
                 <img src={props.img} alt='portfolio' />
             </div>

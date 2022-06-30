@@ -1,0 +1,42 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    padding: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: #ededed;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.cards {
+    flex-basis: 23%;
+    margin: 24px 1%;
+    background: #fff;
+}
+.content {
+    padding: 16px;
+}
+
+.head-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 16px;
+}
