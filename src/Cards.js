@@ -15,17 +15,17 @@ function Cards(props) {
 
                 <div className='main-content'>
                     <div className='view'>
-                        <i></i>
+                        <i class="ri-eye-fill"></i>
                         <span>{props.view}</span>
                     </div>
 
                     <div className='like'>
-                        <i></i>
+                        <i class="ri-heart-fill"></i>
                         <span>{props.like}</span>
                     </div>
 
                     <div className='comment'>
-                        <i></i>
+                        <i class="ri-message-3-fill"></i>
                         <span>{props.comment}</span>
                     </div>
                 </div>
