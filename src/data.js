@@ -1,7 +1,7 @@
 export default [
     {
         id: 1,
-        img: './img/portfolio-1',
+        img: '../img/portfolio-1.jpg',
         title: 'Online Education',
         date: 'Jul 30, 2020',
         feedback : {
@@ -13,7 +13,7 @@ export default [
 
     {
         id: 2,
-        img: './img/portfolio-2',
+        img: './img/portfolio-2.jpg',
         title: 'Dark Portfolio',
         date: 'Jul 25, 2021',
         feedback : {
@@ -25,7 +25,7 @@ export default [
 
     {
         id: 3,
-        img: './img/portfolio-3',
+        img: './img/portfolio-3.jpg',
         title: 'Mai Website',
         date: 'Jan 15, 2021',
         feedback : {
@@ -37,7 +37,7 @@ export default [
 
     {
         id: 4,
-        img: './img/portfolio-4',
+        img: './img/portfolio-4.jpg',
         title: 'Dashboard',
         date: 'April 5, 2022',
         feedback : {
