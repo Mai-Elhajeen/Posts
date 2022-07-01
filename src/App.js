@@ -1,14 +1,14 @@
 import Cards from './Cards';
 import data from './data';
 
-import img1 from './img/portfolio-1.jpg'
+// import img1 from './img/portfolio-1.jpg'
 
 function App() {
 
   const cards = data.map(item => {
     return (
       <Cards 
-        img = {img1}
+        img = {item.img}
         title = {item.title}
         date = {item.date}
         view = {item.feedback.view}
